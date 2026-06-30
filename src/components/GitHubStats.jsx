@@ -23,7 +23,7 @@ export default function GitHubStats() {
         <SectionHeading
           eyebrow="GitHub"
           title="Live from GitHub"
-          subtitle="Pulled in real time from the GitHub API — not a screenshot."
+          
         />
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mb-10">
