@@ -16,23 +16,40 @@ export default function About() {
             className="md:col-span-3 space-y-5 text-muted text-base leading-relaxed"
           >
             <p>
-              I'm a Computer Engineering student who builds full systems, not demos —
-              from a <span className="text-white">RAG-based code reviewer</span> that runs CodeBERT
-              embeddings through a FAISS vector store, to a{" "}
-              <span className="text-white">GitHub reviewer-recommendation platform</span> with a
-              layered backend architecture.
-            </p>
-            <p>
-              I care about the decision behind a line of code as much as the line itself —
-              why a JWT middleware sits where it does, why an allocation engine checks fatigue
-              before availability, why a vector store beats a linear scan at scale.
-            </p>
-            <p>
-              Currently contributing to open-source through{" "}
-              <span className="text-white">GirlScript Summer of Code</span> and{" "}
-              <span className="text-white">Hacktoberfest</span>, solving DSA daily on LeetCode,
-              and preparing for SDE placements.
-            </p>
+  I'm a Computer Engineering student passionate about building scalable
+  software that solves real-world problems. My interests span
+  <span className="text-white"> Full Stack Development</span>,
+  <span className="text-white"> Artificial Intelligence</span>, and
+  <span className="text-white"> Machine Learning</span>, where I enjoy
+  designing systems that are both practical and efficient.
+</p>
+
+<p>
+  I've developed projects ranging from an
+  <span className="text-white"> AI-powered Code Reviewer</span> using
+  CodeBERT, FAISS, and Retrieval-Augmented Generation (RAG), to
+  <span className="text-white"> ReviewLoad</span>, an intelligent GitHub
+  reviewer recommendation platform that combines developer expertise,
+  review workload, fairness, and burnout estimation to recommend the most
+  suitable reviewer for pull requests.
+</p>
+
+<p>
+  I enjoy understanding the engineering decisions behind every system—
+  whether it's designing modular backend architectures, optimizing API
+  interactions, or choosing algorithms that improve scalability,
+  maintainability, and performance.
+</p>
+
+<p>
+  I previously contributed to open-source through
+  <span className="text-white"> GirlScript Summer of Code (GSSoC)</span>
+  and
+  <span className="text-white"> Hacktoberfest</span>. Alongside this, I
+  regularly strengthen my problem-solving skills through Data Structures
+  & Algorithms and continuously explore modern software engineering and
+  AI technologies.
+</p>
           </motion.div>
 
           <motion.div
